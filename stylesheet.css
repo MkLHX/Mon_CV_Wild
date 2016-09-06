@@ -4,5 +4,8 @@ body{
 #left-box{
 	float : left;
 	background-color : rgb(9,30,45);
-	color : blanc;
+	color : white;
+}
+#experience-box,#studies-box{
+background-color : white;
 }
