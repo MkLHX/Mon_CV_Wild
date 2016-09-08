@@ -1,11 +1,47 @@
 body{
 	background-color : rgb(104,187,285);
+	padding: 20px;
+}
+header{
+	text-align : center;
+	font-size: 25px;
+	padding: 20px;
+	border: solid 3px grey;
+	border-radius: 5px;
+	box-shadow: 2px 3px 1px 0px;
+	background-color: rgb(104,225,285);
+	margin-bottom: 10px;
+}
+#container{
+	padding: 20px;
+	border: solid 3px grey;
+	border-radius: 5px;
+	box-shadow: 2px 3px 1px 0px;
+	background-color: rgb(104,225,285);
+	margin-bottom: 10px;
+
+}
+footer{
+	padding: 20px;
+	border: solid 3px grey;
+	border-radius: 5px;
+	box-shadow: 2px 3px 1px 0px;
+	background-color: rgb(104,225,285);
 }
 #left-box{
 	float : left;
-	background-color : rgb(9,30,45);
-	color : white;
+	background-color : rgb(104,225,285);
+	color : rgb(0,0,0);
+	box-shadow: 2px 3px 1px 0px;
+}
+#right-box{
 }
 #experience-box,#studies-box{
-background-color : white;
+	background-color : rgb(255,255,255);
+	margin-left: 300px;
+	box-shadow: 2px 3px 1px 0px;
+	border-radius: 5px;
+}
+.title{
+	text-align: center;
 }
